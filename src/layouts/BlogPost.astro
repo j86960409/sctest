@@ -76,6 +76,22 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 						<hr />
 					</div>
 					<slot />
+<!-- 留言板顯示區域 -->
+<div id="waline-comments" style="margin-top: 3rem; padding: 0 1rem;"></div>
+
+<script>
+  import { init } from '@waline/client';
+  import '@waline/client/style';
+
+  // 初始化 Waline
+  init({
+    el: '#waline-comments',
+    serverURL: 'https://my-waline-server-ten.vercel.app/', // ⚠️ 請改成您複製的 Vercel 後端網址
+    dark: 'auto',
+    comment: true,
+    placeholder: '歡迎在這裡填寫 Email 或匿名留言互動喔...',
+  });
+</script>
 				</div>
 			</article>
 		</main>
