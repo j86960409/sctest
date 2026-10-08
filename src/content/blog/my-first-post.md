@@ -2,7 +2,6 @@
 title: '我的第一篇測試文章！'
 description: '這是透過 Debian 13 遠端發布上線的文章。'
 pubDate: '2026-10-08'
-heroImage: '/blog-placeholder-about.jpg'
 ---
 
 ## 嗨！這是我的個人網站
