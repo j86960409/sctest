@@ -1,0 +1,16 @@
+---
+title: '我的第一篇測試文章！'
+description: '這是透過 Debian 13 遠端發布上線的文章。'
+pubDate: '2026-10-08'
+heroImage: '/blog-placeholder-about.jpg'
+---
+
+## 嗨！這是我的個人網站
+
+今天成功在 **Debian 13** 上配置了 Node.js 與 Astro 環境，並且連動了 **GitHub** 與 **Vercel** 託管平台。
+
+接下來，我打算為這個網站加入：
+1. 會員登入系統
+2. 支援 Email 的匿名留言板
+
+這架構跑起來真的太快了！
